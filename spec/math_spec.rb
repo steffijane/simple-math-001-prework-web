@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "#addition" do 
+describe "#addition" do
   it "adds two numbers together" do
     expect(addition(5,4)).to eq(9)
   end
@@ -35,11 +35,3 @@ describe "#square_root" do
     expect(square_root(81)).to eq(9)
   end
 end
-
-describe "order_of_operations" do
-  it "uses parenthesis to set the order of operations properly" do
-    expect(order_of_operation(7, 43, 23, 83)).to eq(18)
-  end
-end
-
-
